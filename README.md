@@ -19,13 +19,13 @@ A lightweight Python service for converting PDF files into images using `pdftopp
 
 1. Clone the repository:
 
-    ```
+    ```bash
     git clone https://github.com/marwan-ahmed-23/PDF-to-Images-Conversion-python.git
     ```
 
 2. Install `pdftoppm` (if not already installed):
 
-    ```
+    ```bash
     sudo apt install poppler-utils
     ```
 
@@ -35,7 +35,7 @@ A lightweight Python service for converting PDF files into images using `pdftopp
 
 Use the provided example script in the `examples/` directory:
 
-```
+```bash
 from src.pdf_to_images import PdfToImages
 
 pdf_path = "sample.pdf"
@@ -49,7 +49,7 @@ print(images)
 
 Place a sample PDF in the `examples/` folder and run the script:
 
-```
+```bash
 python examples/example.py
 ```
 
