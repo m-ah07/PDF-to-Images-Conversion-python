@@ -60,7 +60,7 @@ PDF-to-Images-Conversion-python/
 │   └── example.py
 ├── src/
 │   └── pdf_to_images.py
-├── License
+├── LICENSE
 ├── .gitignore
 └── README.md
 ```
