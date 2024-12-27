@@ -4,18 +4,18 @@ A lightweight Python service for converting PDF files into images using `pdftopp
 
 ---
 
-## Features
+## 🚀 Features
 
 - Converts PDF files to PNG images.
 - Outputs one image per page in the PDF.
 - Lightweight and easy to use.
 
-## Requirements
+## ⚙️ Requirements
 
 - Python 3.7 or higher.
 - `pdftoppm` installed on the system (part of `poppler-utils`).
 
-## Installation
+## 🔧 Installation
 
 1. Clone the repository:
 
@@ -29,7 +29,7 @@ A lightweight Python service for converting PDF files into images using `pdftopp
     sudo apt install poppler-utils
     ```
 
-## Usage
+## 📖 Usage
 
 ### Example
 
@@ -53,17 +53,22 @@ Place a sample PDF in the `examples/` folder and run the script:
 python examples/example.py
 ```
 
-## Directory Structure
-
+## 📂 Directory Structure
+```plaintext
 PDF-to-Images-Conversion-python/
 ├── examples/
-│   └── example.py         # Example usage for PDF to images conversion
+│   └── example.py
 ├── src/
-│   └── pdf_to_images.py   # Core logic for PDF to images conversion
-├── .gitignore             # Git ignore file
-└── README.md              # Project documentation
+│   └── pdf_to_images.py
+├── License
+├── .gitignore
+└── README.md
+```
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to submit a pull request or open an issue to report bugs or suggest features.
 
+## 🌟 Show Your Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub. Your support means the world to us!
